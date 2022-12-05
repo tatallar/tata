@@ -28,7 +28,7 @@
  /* Paste this css to your style sheet file or under head tag */
  /* This only works with JavaScript,
  if it's not present, don't show loader */
- .no-js #loader { display: none;  }
+ /*.no-js #loader { display: none;  }
  .js #loader { display: block; position: absolute; left: 100px; top: 0; }
  .se-pre-con {
  	position: fixed;
@@ -38,19 +38,20 @@
  	height: 100%;
  	z-index: 9999;
  	background: url('../images/balls_nobackground.gif') center no-repeat #1c2021;
- }
+ }*/
 /*loader http://smallenvelop.com/display-loading-icon-page-loads-completely/ */
 
 
 
 #skel-layers-wrapper:before {
-	z-index: -1;
+	z-index: 0;
 	content: " ";
 	position: fixed;
-	background: url('../images/antenas.jpg') /*no-repeat fixed center*/;
+	background: url('../images/FOTOS/tata_DSC_3166.jpg') /*no-repeat fixed center*/;
 	background-size: cover;
-	background-blend-mode: multiply;
-	filter: blur(5px);
+	background-position: center top;
+	/*background-blend-mode: multiply;
+	filter: blur(5px);*/
 	transform: scale(1.1);
 	/*-webkit-filter: blur(3px);
 	-moz-filter: blur(3px);
@@ -59,7 +60,7 @@
 	filter: blur(3px);
 	will-change: transform;*/
 	width: 100%;
-  height: 100%;
+	height: 100%;
 }
 
 
@@ -171,10 +172,30 @@
 
 	header.special {
 		margin-bottom: 5em;
-		padding-top: 7em;
+		padding: 5em 5em 2em 5em;
 		position: relative;
 		text-align: justify;
+		background: rgba(204, 109, 34, 0.5); /*taronja*/
+		background: rgba(28, 32, 33, 0.5); /*negre*/
+		background-repeat: no-repeat, no-repeat;
+		backdrop-filter: blur(2px);
+		color: inherit;
+		font-weight: inherit;
+		
 	}
+	
+	header.special.contact {
+		margin-bottom: 5em;
+		padding: 5em;
+		position: relative;
+		text-align: justify;
+		background: rgba(28, 32, 33, 0.3);
+		background-repeat: no-repeat, no-repeat;
+		backdrop-filter: blur(5px);
+		color: inherit;
+		font-weight: inherit;
+		
+	}	
 
 		header.special:before, header.special:after {
 			border-bottom: solid 1.5px;
@@ -696,13 +717,16 @@
 		padding: 5em;
 	}
 
-		.wrapper.style1 {
+		.wrapper.style1 {/*marró*/
 			color: inherit;
+			background-size: 25em, 25em;
+			background: rgba(28, 32, 33, 0.3);
+			backdrop-filter: blur(5px);
 			
 		}
 
-		.wrapper.style2 {
-			background-color: rgb(0, 95, 108, 0.5);
+		.wrapper.style2 {/*blau*/
+			background-color: rgb(0, 95, 108, 0.6);
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -711,17 +735,41 @@
 			color: inherit;
 		}
 
-		.wrapper.style3 {
-			text-align: left;
-			background: rgba(28, 32, 33, 0.8);
+		.wrapper.style3 {/*negre*/
+			text-align: ;
+			background: rgba(28, 32, 33, 0.6);
+			background-repeat: no-repeat, no-repeat;
+			background-size: 25em, 25em;
+			backdrop-filter: blur(5px);
 			color: inherit;
 		}
 
-		.wrapper.style4 {
-			background: rgb(0, 95, 108, 0.9);
+		.wrapper.style4 {/*groc*/
+			background: rgb(175, 127, 77, 0.6);
+			background-repeat: no-repeat, no-repeat;
+			background-size: 25em, 25em;
+			backdrop-filter: blur(5px);
 			color: inherit;
 			padding: 4em;
 		}
+		
+		.wrapper.style5 { /*vermell*/
+			background: rgb(174, 63, 47, 0.6);
+			background-repeat: no-repeat, no-repeat;
+			background-size: 25em, 25em;
+			backdrop-filter: blur(5px);
+			color: inherit;
+			padding: 4em;
+		}
+		
+		.wrapper.style6 { /*turquesa*/
+			background: rgb(73, 134, 117, 0.6);
+			background-repeat: no-repeat, no-repeat;
+			background-size: 25em, 25em;
+			backdrop-filter: blur(5px);
+			color: inherit;
+			padding: 4em;
+		}		
 
 /* Header */
 	@-moz-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
@@ -930,8 +978,8 @@
 		#banner .carousel-content {
 			position: absolute;
 			/*to center the content horizontally and vertically*/
-			top: 20em;
-			left: 15em;
+			top: 18em;
+			left: 29em;
 			transform: translate(-50%, -50%);
 			text-align: center;
 			z-index: 50;
@@ -963,7 +1011,8 @@
 		#banner .slide {
 			width: 100%;
 			height: 100%;
-			mix-blend-mode: multiply;
+			mix-blend-mode:;
+			/*-webkit-transform: scaleX(-1);*/
 		}
 		#banner .slide-img {
 			width: 100%;
@@ -1061,7 +1110,7 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(113, 74, 72, 0.5);
+			background: rgba(204, 109, 34, 0.3);
 			backdrop-filter: blur(5px);
 			color: white;
 			display: inline-block;
@@ -1094,7 +1143,7 @@
 					padding-left: 0.05em;
 					position: absolute;
 					text-transform: capitalize;
-					color: rgb(206, 180, 169);
+					color: rgb(255, 207, 39);
 				}
 
 			#banner .inner p {
@@ -1250,13 +1299,14 @@
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed !important;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
-		background-position: top left, top right, top left, bottom center;
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/FOTOS/banner.jpg");
+		background-position: top left, top right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: white;
 		padding: 5em;
 		text-align: center;
+		backdrop-filter: blur(5px);
 	}
 
 		#cta header {
@@ -1270,8 +1320,9 @@
 		background: #1C2021;
 		/*color: #7c8081;*/
 		color: #e8eef4;
-		padding: 5em 5em 10em 5em;
+		padding: 2em 5em 2em 5em;
 		text-align: center;
+		backdrop-filter: blur(5px);
 	}
 
 		#footer .copyright {
@@ -1449,8 +1500,14 @@
     background-color: rgba(113, 74, 72, 0.7);
     background-blend-mode: overlay;
     border-radius: 10px;
+	font-size: 90%;
 
     }
+	
+	.card table {
+	  
+	
+	}
 
 	.cardmap{
 

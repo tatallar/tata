@@ -4,9 +4,9 @@
 	html5up.net | @n33
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html lang="ca">
+<html lang="es">
 	<head>
-		<title>TATA - LA NOSTRA LLAR</title>
+		<title>TATA Llar de criança - Nuestro Hogar</title>
 		<link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
 		<link rel="stylesheet" href="css/skel.css" />
 		<link rel="stylesheet" href="css/style.css" />
@@ -46,32 +46,29 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<h1 id="logo"><a href="index.html">TATA <span>La nostra llar</span></a></h1>
+				<h1 id="logo"><a href="#">TATA <span>Nuestro Hogar</span></a></h1>
 				<nav id="nav">
 					<ul>
-						<li class="current scrolly"><a href="index-ca.html">Benvinguda</a></li>
+						<li class="current scrolly"><a href="index-es.html">Bienvenida</a></li>
 						<li class="submenu">
 							<a href="">Menú</a>
 							<ul>
-								<li><a href="index-ca.html">Inici</a></li-->
-								<li><a href="services-ca.html">Projecte</a></li>
-								<li><a href="about-ca.html">Qui soc</a></li>
-								<li><a href="contact-ca.html">La nostra llar</a></li>
+								<li><a href="index-es.html">Inicio</a></li-->
+								<li><a href="services-es.html">Proyecto</a></li>
+								<li><a href="about-es.html">¿Quién soy?</a></li>
+								<li><a href="contact-es.html">Nuestro hogar</a></li>
 								<li>&nbsp;</li>
-								<li><a class="icon fa-globe" href="contact-es.html"> Español</a></li>
+								<li><a class="icon fa-globe" href="contact-ca.html"> En Català</a></li>
 							</ul>
 			            </li>
-						<!--<li><a href="#" class="button special">Sign up</a></li>-->
 						<a style="text-decoration:none">
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						</a>
-						<!--a href="index-en.html"><img src="images/005-cat.svg" class="icon circle lang" alt="CAT"></a>
-						<a href="index-zh.html"><img src="images/004-spain.svg" class="icon circle lang" alt="ESP"></a>
-						<a href="index-es.html"><img src="images/003-UK.svg" class="icon circle lang" alt="ENG"></a>-->
 						</ul>
         </nav>
 			</header>
+			
 		<!--Banner-->
 		<section id="banner">
 		</section>
@@ -81,19 +78,21 @@
 			<article id="main">
 
 				<header class="special container">
-					<span class="icon fa-envelope"></span>
-					<h2>Contacte amb nosaltres</h2>
+					<span class="icon fa-home"></span>
+					<h2>Ubicación</h2>
 
-				<p></p>
-				<p></p>
+				<p>Estamos en la calle Industria en el barrio de La Sagrada Familia, popularmente también conocido como "El Poblet", es un barrio del distrito del Eixample de la ciudad de Barcelona, alrededor del templo que le da nombre, la Sagrada Familia. El barrio está delimitado por la calle de Nápoles, la Avenida de la Diagonal y las calles Dos de Mayo y de Sant Antoni Maria Claret. Limita con los barrios de Derecha del Eixample y Fort Pienc, y los distritos de Gracia, Huerta-Guinardó, y San Martín.</p>
+				<p>El Poblet era un vecindario que durante muchos años se redujo a campos, con un pequeño núcleo de casas bajas situadas alrededor de la actual calle de València. No llegó a tener cierta entidad hasta los primeros años del siglo XX, como barrio obrero en el entorno de muchas industrias. El que hoy le da personalidad es el templo de la Sagrada Familia. Fue encargado como templo expiatorio y se proyectó el 1881 en unos terrenos del término de San Martín, cuando a su alrededor todo eran campos. La avenida de Gaudí atraviesa el barrio, uniendo la Sagrada Familia con otra obra capital del modernismo catalán: el Hospital de la Santa Cruz y Santo Pablo, de Lluís Domènech i Montaner. El barrio de la Sagrada Familia incluye en su extremo inferior el vecindario de los Encantes, con el popular mercado-feria de Bellcaire o Encantes.</p>
+
+				</header>
 
 					<div class="card">
-							<table class="normalcard">
+							<table class="normalcard" style="font-size: 16px">
 								<tr><th colspan="2"style="text-align:left">
 								<img src="images/tata_logo_casa_trans.png" alt="TATA logo" width="30%"></img></th></tr>
 								<tr><td rowspan="1" style="text-align:left"><b>TATA </b>Llar de criança</td>		<td></td>
-								<tr><td style="text-align:left">Zona C/Indústria amb Sicília</td>									<td style="text-align:right"></td></tr>
-								<tr><td style="text-align:left">08025 Barcelona.</td> 						<td style="text-align:right">M: 0034 623 175 340</td></tr>
+								<tr><td style="text-align:left">Zona Indústria con Sicília</td>									<td style="text-align:right"></td></tr>
+								<tr><td style="text-align:left">08025 Barcelona. </td> 						<td style="text-align:right">M: 0034 623 175 340</td></tr>
 								<tr><td style="text-align:left">SPAIN</td>												<td style="text-align:right"><a href="mailto:tatallar@outlook.com">tatallar@outlook.com<a></td></tr>
 							</table>
 
@@ -114,67 +113,6 @@
 					</div>
 
 					<p></p>
-
-				</header>
-				<!--p style="text-align:center">Vols dir-nos alguna cosa? També pots fer servir aquest formulari.</p>
-
-				<!-- One -->
-					<!--section class="wrapper style4 special container small">
-
-						<!-- Content -->
-							<!--div class="content">
-								<form method="POST" action="http://cgi.ivesimports.es/FormMail.pl" onsubmit="return checkRequired(this)">
-
-									<input type="hidden" name="recipient" value="info@ivesimports.es">
-									<input type="hidden" name="subject" value="tengame informado">
-									<input type="hidden" name="email" value="correo electronico,">
-
-									<div class="row half no-collapse-1">
-										<div class="6u">
-											<input type="text" name="name" placeholder="Name" />
-										</div>
-										<div class="6u">
-											<input type="text" name="email" placeholder="Email" required=""/>
-										</div>
-									</div>
-									<div class="row half">
-										<div class="12u">
-											<input type="text" name="subject" placeholder="Subject" />
-										</div>
-									</div>
-									<div class="row half">
-										<div class="12u">
-											<textarea name="message" placeholder="Message" rows="7"></textarea>
-										</div>
-									</div>
-									<div class="row">
-										<div class="12u">
-											<ul class="buttons">
-												<li class="submit"><input class="button" type="submit" name="Enviado" value="Enviar Mensaje"></li>
-											</ul>
-										</div>
-									</div>
-								</form>
-					</div-->
-
-							<!--script type="text/javascript">
-					var placeholder = $("#test").val();
-
-					$("#test").keydown(function() {
-					    if (this.value == placeholder) {
-					        this.value = '';
-					    }
-					}).blur(function() {
-					    if (this.value == '') {
-					        this.value = placeholder;
-					    }
-					});
-					</script>
-
-
-					</section>
-
-			</article>
 
 		<!-- Footer -->
 		<footer id="footer">
