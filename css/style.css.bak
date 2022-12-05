@@ -175,8 +175,8 @@
 		padding: 5em 5em 2em 5em;
 		position: relative;
 		text-align: justify;
-		background: rgba(204, 109, 34, 0.5); /*taronja*/
-		background: rgba(28, 32, 33, 0.5); /*negre*/
+		background: rgba(204, 109, 34, 0.6); /*taronja*/
+		background: rgba(28, 32, 33, 0.6); /*negre*/
 		background-repeat: no-repeat, no-repeat;
 		backdrop-filter: blur(2px);
 		color: inherit;
@@ -1500,7 +1500,7 @@
     background-color: rgba(113, 74, 72, 0.7);
     background-blend-mode: overlay;
     border-radius: 10px;
-	font-size: 90%;
+	font-size: 16px;
 
     }
 	
