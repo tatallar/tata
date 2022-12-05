@@ -1,13 +1,19 @@
 <!DOCTYPE HTML>
 <!--
 	Twenty 1.0 by HTML5 UP
-	html5up.net | @n33co
+	html5up.net | @n33
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html lang="es">
+<html lang="ca">
 	<head>
 		<title>TATA Llar de criança - Home</title>
-		<meta name="theme-color" content="#2A5791" />
+		<link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="favicon/favicon.svg">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#2A5791"/>
 		<meta name="msapplication-navbutton-color" content="#2A5791">
 		<meta name="apple-mobile-web-app-status-bar-style" content="#2A5791">
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -19,14 +25,23 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+
+
+
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 
 	</head>
+
+	<!-- loader-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+	<script src="js/loader.js"></script>
+	<div class="se-pre-con"></div>
+	<!-- loader-->
+
 	<body class="index loading">
 
 		<!-- Header -->
@@ -34,38 +49,28 @@
 				<h1 id="logo"><a href="index.html">TATA <span>Llar de criança</span></a></h1>
 				<nav id="nav">
 					<ul>
-						<li class="current"><a href="index.html">Benvinguda</a></li>
-
-            <li class="icon">
-              <i align="middle" ref="" class="icon lang fa-globe"></i>
-              <ul>
-                <li><a href="index-en.html">English</a></li>
-                <li><a href="index-ch.html">Chinese</a></li>
-              </ul>
-            </li>
-
+						<li class="current scrolly"><a href="#">Benvinguda</a></li>
 						<li class="submenu">
 							<a href="">Menú</a>
 							<ul>
-								<li><a href="blog-es.html">Blog</a></li>
-								<li><a href="services-es.html">Servicios</a></li>
-								<li><a href="about-es.html">Acerca de TATA</a></li>
-								<li><a href="contact-es.html">Contacto</a></li>
-							<!--	<li class="submenu">
-									<a href="">Submenu</a>
-									<ul>
-										<li><a href="#">Dolore Sed</a></li>
-										<li><a href="#">Consequat</a></li>
-										<li><a href="#">Lorem Magna</a></li>
-										<li><a href="#">Sed Magna</a></li>
-										<li><a href="#">Ipsum Nisl</a></li>
-									</ul>
-								</li> -->
+								<li><a href="index-ca.html">Inici</a></li-->
+								<li><a href="services-ca.html">Projecte</a></li>
+								<li><a href="about-ca.html">Qui soc</a></li>
+								<li><a href="contact-ca.html">La nostra llar</a></li>
+								<li>&nbsp;</li>
+								<li><a class="icon fa-globe" href="lang.html"> Language</a></li>
 							</ul>
-						</li>
-						<li><a href="#" class="button special">Sign Up</a></li>
-					</ul>
-				</nav>
+			            </li>
+						<!--<li><a href="#" class="button special">Sign up</a></li>-->
+						<a style="text-decoration:none">
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</a>
+						<!--a href="index-en.html"><img src="images/005-cat.svg" class="icon circle lang" alt="CAT"></a>
+						<a href="index-zh.html"><img src="images/004-spain.svg" class="icon circle lang" alt="ESP"></a>
+						<a href="index-es.html"><img src="images/003-UK.svg" class="icon circle lang" alt="ENG"></a>-->
+						</ul>
+        </nav>
 			</header>
 
 		<!-- Banner -->
@@ -76,30 +81,69 @@
 					automatically wrap lines, so be sure to use line breaks where
 					appropriate (<br />).
 				-->
-				<div class="inner">
-
-					<header>
-					<!--<h2></h2>-->
-					</header>
-					<table class="special containers" style="max-width:100px">
-						<tr><td>
-						<div>
-							<img src="images/logo.png" alt="TATA" width="280%">
+				<div class="container">
+					<div class="content">
+						<div class="carousel-content">
+							<div class="inner">						
+							
+							<div class="innermobile">
+							<header>
+							<h2>Tata</h2>
+							</header>
+							<p>&nbsp;&nbsp;</p>	
+							<img src="images/tata_logo_casa_trans.png" alt="TATA" width="75%">
+							<p><strong>Madre</strong> de día<p>
+							<p>&nbsp;&nbsp;</p>
+							<div>Para que tus pequeños<br> se sientan como en casa</div>
+							<p>&nbsp;&nbsp;</p>
+							</div>
+							<div class="innerdesktop">
+							<header>
+							<table>
+							<tr>
+							<td><h2>Tata</h2><img src="images/tata_logo_casa_trans.png" alt="TATA" align="right" width="300"></td>
+							</tr>
+							<tr>
+							<td height="50px"><p>&nbsp;&nbsp;<strong>Madre</strong> de día<p></td>
+							</tr>
+							<tr>
+							<td><div>Para que tus pequeños<br> se sientan como en casa</div></td>
+							</tr>
+							</table>
+							</header>
+							</div>
+							
+							<footer>
+							<ul class="buttons vertical">
+								<li><a href="#main" class="button fit scrolly">Descubre más</a></li>
+							</ul>
+							</footer>
+							</div>
 						</div>
-					</tr></td>
-				</table>
-					<p><strong>Llar</strong> de criança<br />
-					 per a que els teus menuts
-					 <br />
-				 </a> es sentin com a casa</p>
-					<footer>
-						<ul class="buttons vertical">
-							<li><a href="#main" class="button fit scrolly">Descubra mas</a></li>
-						</ul>
-					</footer>
-
+					</div>
 				</div>
-
+				<div class="slideshow"  style="z-index: -1">
+				<!-- carousel control buttons -->
+				<button class="slide-btn slide-btn-1"></button>
+				<button class="slide-btn slide-btn-2"></button>
+				<button class="slide-btn slide-btn-3"></button>
+				<button class="slide-btn slide-btn-4"></button>
+				<!-- carousel wrapper which contains all images -->
+				<div class="slideshow-wrapper">
+					<div class="slide">
+						<img class="slide-img" src="images/FOTOS/tata_DSC_3166.jpg">
+					</div>
+					<div class="slide">
+						<img class="slide-img" src="images/FOTOS/banner.jpg">
+					</div>
+					<div class="slide">
+						<img class="slide-img" src="images/FOTOS/tata_DSC_3186.jpg">
+					</div>
+					<div class="slide">
+						<img class="slide-img" src="images/FOTOS/tata_DSC_3220.jpg">
+					</div>
+				</div>
+			</div>
 			</section>
 
 		<!-- Main -->
@@ -107,128 +151,148 @@
 
 				<header class="special container">
 					<span class="icon fa-home"></span>
-					<h2>Us presento <strong>TATA - Llar de criança</strong><br />
+					<h2>Os presento <strong>TATA - Madre de día</strong><br />
 					 Un projecte de Mare de Dia.</h2>
-					<p><strong></strong>
-						Sóc la María, i junt amb l’Axel, la meva parella, i el Noah, el meu fill de 19 mesos què hi serà amb mi a aquest projecte, obrim casa nostra amb tota la il·lusió i tot l’amor, per acollir a les famílies i als seus fills/es. 
+					<p>Tata nace a partir de la vivencia personal más importante de mi vida: la llegada de mi hijo. Su nacimiento supuso un terremoto que me sacudió hasta los cimientos, para sacar lo mejor de mí misma.</p>
 
-				<br />
-				<br />
-						Tata neix a partir de la vivència personal més important de la meva vida: l’arribada del Noah. El seu naixement va suposar un terratrèmol què em va sacsejar fins als ciments, per treure el millor de mi mateixa.
-				</p>
 				</header>
 
-				<!-- One -->
-					<section class="wrapper style2 container special-alt">
-						<div class="row half">
-							<div class="8u">
+				<section class="wrapper style2 container">
+					<div>
+						<header>
+							<h3>Profesión <strong>madre de día</strong></h3>
+						</header>
+					
+					<p>Las madres de día son educadoras profesionales que ofrecen en su propio hogar (adecuadamente adaptado y equipado) un servicio de atención y cuidado a menores desde 4 meses hasta los 3 años de edad, en grupos muy reducidos (3-4 niños) y en un ambiente familiar</p>
+					<p>Las Madres de Día, con amor, paciencia, tiempo y dedicación, acompañan a los niños en el desafío que es para ellos el día a día, ofreciendo  a las familias una respuesta de calidad para afrontar las dificultades cotidianas surgidas por la incorporación plena de la mujer al mundo laboral.</p>
+					<p>El proyecto de Madres de día es un recurso de conciliación de la vida laboral y familiar, una alternativa social a las guarderías tradicionales más adaptada a las verdaderas necesidades educativas y emocionales de los niños en estas edades.</p>
+					<p>El ambiente en el hogar de una Madre de Día, provee al niño de las herramientas necesarias para realizarse en el futuro como ser creativo y comprometido ante la sociedad. A fin que después el pequeño se sitúe ante los otros con confianza, creatividad y entrega, es necesario que haya sido tratado en la primera fase de la vida de forma absolutamente individualizada, con un contacto íntimo y de protección, donde su experiencia se impregne de la calidad del amor incondicional.</p>
 
+					<h3>Servicios del hogar <strong>a las familias</strong></h3>
+					<p>Entre los servicios que ofrecemos, está el de ofrecer apoyo, asesoramiento y respaldo a las familias en la crianza del niño en todo momento, así como el de ofrecer un espacio de encuentro con otras familias para poder hacer charlas, como por ejemplo, sobre lactancia, alimentación, sueño, etc, acompañadas de infusiones, café y pastas cortesía de la casa.</p>
+					<p>Una parte esencial y fundamental en el proyecto, es la participación de las familias en la educación y la integración de las mismas en el proyecto educativo, ya qué es un factor determinante para el buen desarrollo del menor.</p>
+					<p>Los niños son unos grandes observadores, por lo cual si ven a los suyos integrarse y participar en su educación, les transmitirá seguridad y confianza, facilitando así la incorporación al proyecto.</p>
+					<p>La cooperación entre ambas partes está llena de ventajas, facilitará mucho el trabajo de la Madre de Día así como el de las familias, que se irán tranquilas a cumplir con sus deberes sabiendo que su hijo/a se queda tranquilo y feliz.</p>
+					<p>Es importante que las familias dediquen un tiempo a la despedida y a la bienvenida, en este periodo de tiempo, mientras los niños continúen jugando y aprendiendo se establece un vínculo que favorece la comunicación entre los dos.</p>
+
+						
+						<li><strong>Entrevista inicial:</strong>
+							<p>Invitaremos a las familias a conocer el proyecto, realizando una serie de preguntas en relación al niño/a, para que disponemos de información inicial suficiente sobre sus hábitos, preferencias, momento madurativo, etc.</p>
+						</li>
+						<li><strong>Reuniones con las familias:</strong></li>
+							<p>La Madre de Día estará abierta a recibir a las familias cuando así lo deseen. Del mismo modo, cuando observemos algún tipo de cambio significativo, se convocará una reunión con ellas.</p>
+							<p>El intercambio de información será diario a la llegada y a la recogida, con el que, a priori, la información que se transmitira será suficiente.</p>
+						<li><strong>Reuniones entre familias:</strong></li>
+							<p>Al inicio se convocará a todas las familias para que se conozcan entre ellas y puedan hablar de manera conjunta del proyecto y de dudas que surjan sobre este tema.</p>
+							<p>Eventualmente si lo vemos necesario, se convocará una reunión con todas las familias para evaluar el proyecto, buscar mejoras y aportar sugerencias entre todos. De este modo, estaremos implicando a las familias en el proceso educativo de sus hijos/as. Por otro lado, ayudamos al hecho que las familias empaticen entre sí y se sientan comprendidas y orientadas en poder compartir y recibir la información que necesiten.</p>
+				</section>
+				<!--section class="wrapper style3 container special">
+					<h3>Horario</h3>
+					<p>El horario será de lunes a viernes con flexibilidad en la entrada, de 8:00h a 9:00h, y en la salida, de 15:00h a 16:00h. El servicio se ejecutará en función de las horas pactadas en el contrato inicial, con excepción de los festivos y días de libre disposición, así como las vacaciones escolares de Navidad, Semana Santa y el mes de Agost que se indican en el calendario anual de prestación del servicio.</p>
+				</div>
+				</section-->	
+
+
+				<!-- One -->
+					<section class="wrapper style6 container special-alt">
+						<!--div class="row half">
+							<div class="8u"-->
+							<div>
 								<header>
-									<h2><strong>INTENCIONS EDUCATIVES</strong> DE LA LLAR DE CRIANÇA</h2>
+									<h2>OBJETIVOS <strong>EDUCATIVOS</strong></h2>
 								</header>
-								<p>Tata vol aconseguir crear un espai segur, on cada nen es senti lliure per observar, escoltar, tocar, i olorar el món a la seva manera i al seu ritme segons el seu procés de maduresa i construcció interna. La meva responsabilitat com a Mare de Dia, és la de posar al seu abast uns materials amables què el convidin a experimentar la seva independència i autosuficiència en el seu procés d’aprenentatge, dins d’un entorn pensat i preparat per a aquesta finalitat. Hem de procurar conjuntament i amb consonància amb les famílies, saber identificar el seu moment evolutiu  a la vegada que el deixem que sigui la seva pròpia voluntat la que impulsi al seu aprenentatge, guiat sempre que ho necessiti, de la nostra mà.</p>
-								<h2><strong>Principis</strong> metodològics i pedagògics</h2>
-								<p>Aquest projecte es basa principalment en tres corrents pedagògiques: la de María Montessori, Rudolf Steiner i la seva pedagogia Waldorf, i la de Emmi Pikler, ja que considero que els seus principis pedagògics són com una mena de sinergia la qual encaixa amb els fonaments que considero més importants, com la defensa del desenvolupament integral del nen mitjançant l’exploració, el desenvolupament de la creativitat, l’amor i la llibertat.</p>
+								<p>Tata quiere conseguir crear un espacio seguro, donde cada niño se sienta libre para observar, escuchar, tocar, y oler el mundo a su manera y a su ritmo según su proceso de madurez y construcción interna. Mi responsabilidad como Madre de Día, es la de poner a su alcance unos materiales amables qué lo inviten a experimentar en su proceso de aprendizaje hacia su independencia dentro de un entorno pensado y preparado para esta finalidad, procurando conjuntamente y en consonancia con las familias, saber identificar el momento evolutivo del niño/a, a la vez que dejamos que sea su propia voluntad la que lo impulse en su aprendizaje, guiado siempre que lo necesite, de nuestra mano.</p>
+								<h2><strong>Principios</strong> metodológicos y pedagógicos</h2>
+								<p>Este proyecto se basa principalmente en tres principios pedagógicos: el de María Montessori, Rudolf Steiner y su pedagogía Waldorf, y la de Emmi Pikler. Creo que estos principios pedagógicos son una sinergia la que encaja perfectamente con los valores que considero más importantes como son: la defensa del desarrollo integral del niño mediante la exploración, el desarrollo de la creatividad, el amor y la libertad.</p>
 								
 								<footer>
 									<ul class="buttons">
-										<li><a href="about-es.html" class="button">Vols saber-ne més?</a></li>
-									</ul>
+										<li><a href="services-ca.html" class="button">Quieres saber más?</a></li>
 								</footer>
 
 							</div>
-							<div class="4u skel-cell-important">
+							<!--div class="4u skel-cell-important">
 
-								<!--ul class="feature-icons">
-									<li><span class="icon fa-paint-brush"><span class="label">Feature 1</span></span></li>
-									<li><span class="icon fa-heart-o"><span class="label">Feature 2</span></span></li>
-									<li><span class="icon fa-book"><span class="label">Feature 3</span></span></li>
-									<li><span class="icon fa-cloud"><span class="label">Feature 4</span></span></li>
-									<li><span class="icon fa-eye"><span class="label">Feature 5</span></span></li>
-									<li><span class="icon fa-lightbulb-o"><span class="label">Feature 6</span></span></li>
-									<li><span class="icon fa-music"><span class="label">Feature 1</span></span></li>
-									<li><span class="icon fa-moon-o"><span class="label">Feature 2</span></span></li>
-									<li><span class="icon fa-smile-o"><span class="label">Feature 3</span></span></li>
-									<li><span class="icon fa-star"><span class="label">Feature 4</span></span></li>
-									<li><span class="icon fa-spoon"><span class="label">Feature 5</span></span></li>
-									<li><span class="icon fa-cube"><span class="label">Feature 6</span></span></li>
-								</ul-->
-								<ul class="feature-pedagologos" style="line-height:1500%">
-								<li><img src="images/montessori_logo.png" width="200"</li>
-								<li><img src="images/waldorf_logo.png" width="200"</li>
+								<ul class="icon feature" style="line-height:1200%">
+								<li><span class="icon feature fa-heart"></span></li>
+								<li><span class="icon feature fa-shield"></span></li>
+								<li><span class="icon feature fa-child"></span></li>
+								<!--li><img src="images/montessori_logo.png" width="200"</li>
+								<li><img src="images/waldorf_logo_clar.png" width="200"</li>
 								<li><img src="images/pikler_logo.png" width="200"</li>
 								</ul>
 
-							</div>
-						</div>
+							</div-->
 					</section>
 
 				<!-- Two -->
-					<section class="wrapper style1 container special">
+					<section class="wrapper style4 container special">
 						<div class="row">
 							<div class="4u">
 
 								<section>
-									<span class="icon feature fa-heart"></span>
+									<span class="icon feature"><img src="images/montessori_logo.png" height="262"></span>
 									<header>
 										<h3>MARIA MONTESSORI</h3>
 									</header>
-									<p>Aquesta educadora i metgessa defensa el foment de la motivació del nen per aprendre coneixements del seu interès.</p>
+									<p>Esta educadora y médica defiende el fomento de la motivación del niño para aprender conocimientos de su interés.</p>
 								</section>
 
 							</div>
 							<div class="4u">
 
 								<section>
-									<span class="icon feature fa-shield"></span>
+									<span class="icon feature"><img src="images/waldorf_logo_clar.png" height="262"></span>
 									<header>
 										<h3>WALDORF</h3>
 									</header>
-									<p>Metodologia basada en etapes de desenvolupament basat en l’experiència i joc creatiu, foment d’habilitats socials i de creació artística, i millora de l'empatia i comprensió intel·lectual</p>
+									<p>Metodología basada en etapas de desarrollo de la educación basadas en la experiencia i juego creativo, fomento de habilitades sociales y de creación artística, y potencia la empatía y la comprensión intelectual</p>
 								</section>
 
 							</div>
 							<div class="4u">
 
 								<section>
-									<span class="icon feature fa-child"></span>
+									<span class="icon feature"><img src="images/pikler_logo.png" height="262"></span>
 									<header>
 										<h3>EMMI PICKLER</h3>
 									</header>
-									<p>Profunds estudis sobre el comportament i desenvolupament dels nadons, defensa la no intervenció de l’adult en el seu desenvolupament psicomotriu.</p>
+									<p>Profundos estudios sobre el comportamiento y desarrollo de los infantes, defensa la no intervención del adulto en el su desarrollo psicomotriz.</p>
 								</section>
 
 							</div>
 						</div>
+						<div align="center"><a href="services-ca.html#metodes" class="button">Más detalles</a></div>
 					</section>
+				
 
 				<!-- Three -->
-					<section class="wrapper style3 container special">
+					<section class="wrapper style5 container special">
 
 						<header class="major">
-							<h2>Tenim les <strong>portes obertes</strong></h2>
+							<h2>Tenemos las <strong>puertas abiertas</strong></h2>
 						</header>
 
 						<div class="row">
 							<div class="6u">
 
 								<section>
-									<a href="#" class="image feature"><img src="images/proveedores.jpg" alt="" /></a>
+									<a href="#" class="image feature"><img src="images/FOTOS/tata_DSC_3158.jpg" alt="" /></a>
 									<header>
-										<h3>Característiques</h3>
+										<h3>Características</h3>
 									</header>
-									<p>La nostre llar s’ha condicionat adequant uns espais preparats amb material específic per a cada etapa evolutiva del nen o nena. </p>
+									<p>Nuestro hogar se ha acondicionado adecuando unos espacios preparados con material específico para cada etapa evolutiva del niño o niña. </p>
 								</section>
 
 							</div>
 							<div class="6u">
 
 								<section>
-									<a href="#" class="image feature"><img src="images/negociacion.jpg" alt="" /></a>
+									<a href="#" class="image feature"><img src="images/FOTOS/tata_DSC_3209.jpg" alt="" /></a>
 									<header>
-										<h3>ESPAIS</h3>
+										<h3>ESPACIOS</h3>
 									</header>
-									<p>Els diferents espais han de respondre a les necessitats infantils i a les característiques de cada nen/a, així com del grup. </p>
+									<p>Los diferentes espacios tienen que responder a las necesidades infantiles y a las características de cada niño/a, así como del grupo. </p>
 								</section>
 
 							</div>
@@ -237,22 +301,22 @@
 							<div class="6u">
 
 								<section>
-									<a href="#" class="image feature"><img src="images/muestras.jpg" alt="" /></a>
+									<a href="#" class="image feature"><img src="images/FOTOS/tata_DSC_3135.jpg" alt="" /></a>
 									<header>
-										<h3>MAterials</h3>
+										<h3>Materiales</h3>
 									</header>
-									<p>Els materials han de cuidar l’ús del color, la llum, el so i l’olor en el disseny dels espais, així com la  riquesa sensorial dels materials</p>
+									<p>Los materiales tienen que cuidar el uso del color, la luz, el sonido y el olor en el diseño del espacio, así como la riqueza sensorial que tengan</p>
 								</section>
 
 							</div>
 							<div class="6u">
 
 								<section>
-									<a href="#" class="image feature"><img src="images/embarque.jpg" alt="" /></a>
+									<a href="#" class="image feature"><img src="images/FOTOS/tata_DSC_3150.jpg" alt="" /></a>
 									<header>
-										<h3>Estètica</h3>
+										<h3>Estética</h3>
 									</header>
-									<p>Procurem que sigui un ambient similar al d’una llar, acollidor i harmònic (materials naturals, colors suaus, etc.) i evitem que els espais siguin impersonals, freds, uniformes i sense personalitat pròpia.</p>
+									<p>Procuramos que sea un ambiente similar al de un hogar, acogedor y harmónico (materiales naturales, colores suaves, etc.) y evitamos que los espacios sean impersonales, fríos, uniformes y sin personalidad própia.</p>
 								</section>
 
 							</div>
@@ -260,7 +324,7 @@
 
 						<footer class="major">
 							<ul class="buttons">
-								<li><a href="services-es.html" class="button">Coneix més</a></li>
+								<li><a href="about-ca.html" class="button special3">¿Quién soy?</a></li>
 							</ul>
 						</footer>
 
@@ -272,13 +336,14 @@
 			<section id="cta">
 
 				<header>
-					<h2>Ens vols conèixer <strong>més</strong>?</h2>
-					<p>Contacta'ns i descobreix el nostre dia a dia.</p>
+					<h2>¿Quieres <strong>conocerme</strong> más?
+					</h2>
+					<p style="text-align:center">Contáctame y descubre nuestro día a día.</p>
 				</header>
 				<footer>
 					<ul class="buttons">
-						<li><a href="contact-es.html" class="button special">Contacta'ns</a></li>
-						<li><a href="blog-es.html" class="button">el nostre blog</a></li>
+						<li><a href="contact-ca.html" class="button special">Contáctanos</a></li>
+						<li><a href="blog-ca.html" class="button special2">Mi blog</a></li>
 					</ul>
 				</footer>
 
@@ -287,21 +352,24 @@
 		<!-- Footer -->
 			<footer id="footer">
 
-				<ul class="icons">
-					<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-					<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
-					<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
-				</ul>
+					<!--ul class="icons">
+						<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon circle fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<!--li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li-->
+						<!--<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+					<!--/ul-->
 
-				<span class="copyright">&copy; Untitled. All rights reserved. Design: <a href="http://html5up.net">HTML5 UP</a>.
-        <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
-          <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by
-          <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-        </div></span>
-
-			</footer>
+					<span class="copyright">&copy; Tata, Llar de Criança. All rights reserved.
+						<div>Base design inspired by <a href="http://html5up.net">HTML5 UP</a> and modified by Axel Conill Roche.</div>
+						<div><font size="1">Background images are released under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.es">Creative Commons CC0</a></font></div>
+	        <!--div><font size="1">Language icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
+	          <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by
+	          <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></font></div>
+			<div><a href="http://www.onlinewebfonts.com">oNline Web Fonts</a></div-->
+		
+				</span>
+				</footer>
 
 	</body>
 </html>
