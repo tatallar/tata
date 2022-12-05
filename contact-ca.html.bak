@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty 1.0 by HTML5 UP
+	html5up.net | @n33
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="ca">
+	<head>
+		<title>TATA - LA NOSTRA LLAR</title>
+		<link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="favicon/favicon.svg">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#2A5791"/>
+		<meta name="msapplication-navbutton-color" content="#2A5791">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#2A5791">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+
+
+
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+
+	</head>
+
+	<!-- loader-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+	<script src="js/loader.js"></script>
+	<div class="se-pre-con"></div>
+	<!-- loader-->
+
+	<body class="index loading">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1 id="logo"><a href="index.html">TATA - La nostra <span>llar</span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="current scrolly"><a href="#">Benvinguda</a></li>
+						<li class="submenu">
+							<a href="">Menú</a>
+							<ul>
+								<li><a href="index-ca.html">Inici</a></li-->
+								<li><a href="services-ca.html">Projecte</a></li>
+								<li><a href="about-ca.html">Qui soc</a></li>
+								<li><a href="contact-ca.html">La nostra llar</a></li>
+								<li>&nbsp;</li>
+								<li><a class="icon fa-globe" href="lang.html"> Language</a></li>
+							</ul>
+			            </li>
+						<!--<li><a href="#" class="button special">Sign up</a></li>-->
+						<a style="text-decoration:none">
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</a>
+						<!--a href="index-en.html"><img src="images/005-cat.svg" class="icon circle lang" alt="CAT"></a>
+						<a href="index-zh.html"><img src="images/004-spain.svg" class="icon circle lang" alt="ESP"></a>
+						<a href="index-es.html"><img src="images/003-UK.svg" class="icon circle lang" alt="ENG"></a>-->
+						</ul>
+        </nav>
+			</header>
+		<!--Banner-->
+		<section id="banner">
+		</section>
+
+		<!-- Main -->
+			<article id="main">
+
+				<header class="special container">
+					<span class="icon fa-envelope"></span>
+					<h2>Contacte amb nosaltres</h2>
+
+				<p></p>
+				<p></p>
+
+					<div class="card">
+							<table class="normalcard">
+								<!--<tr><th style="text-align:left"><h1 id="logo"><b>Ives</b> Imports</h1></th><th></th></tr>-->
+								<tr>
+									<td style="text-align:left"><img style="border-radius: 10px" src="images/tata_trans.png" alt="TATA logo" height="135em"></img></td>
+									<td rowspan="4" style="text-align:right; vertical-align:top"><b>TATA </b>Llar de criança
+
+
+							<div class="cardmap">
+								<iframe width="300" height="220" id="cardmap" src="https://maps.google.com/maps?q=Carrer%20industria%2058,%2008025%20Barcelona&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+							</div>
+
+									
+									</td>
+								</tr>
+								<tr height="10em"><td></td><td></td></tr>
+								<tr><td style="text-align:left">telf: +34 679 35 63 42</td>
+									<td style="text-align:right"></td>
+								</tr>
+								<tr><td style="text-align:left"><a href="mailto:info@tata.cat">info@tata.cat<a></td>
+									<td style="text-align:right"></td>
+								</tr>
+								<tr><td style="text-align:left"></td>
+									<td style="text-align:right"></td>
+								</tr>
+							</table>
+
+						<table class="mobilecard">
+							<!--<tr><th style="text-align:left"><h1 id="logo"><b>Ives</b> Imports</h1></th><th></th></tr>-->
+							<tr>								
+								<td style="text-align:left; vertical-align:top"><b>TATA</b> Llar de criança</td>
+								<td colspan="4"><div style="height: 0"><img align="right" src="images/tata_trans.png" alt="TATA logo" height="100em"></img></div></td>
+							</tr>
+							<tr><td style="text-align:right">C. Industria 58, 2n 3a</td><td></td></tr>
+							<tr><td style="text-align:right">08025, Barcelona.</td><td style="text-align:left"></td></tr>
+							<tr Style="text-align:right"><td>SPAIN</td><td></td></tr>
+							<tr Style="height:2em;">
+							<tr><td style="text-align:left">T: +34 93 207 38 42  </td><td style="text-align:right">M: +34 679 35 63 42</td></tr>
+							<tr><td></td><td></td></tr>
+							<tr><td></td><td style="text-align:right"><a href="mailto:info@tata.cat">info@tata.cat<a></td></tr>
+						</table>
+
+
+					</div>
+
+					<p></p>
+
+				</header>
+				<!--p style="text-align:center">Vols dir-nos alguna cosa? També pots fer servir aquest formulari.</p>
+
+				<!-- One -->
+					<!--section class="wrapper style4 special container small">
+
+						<!-- Content -->
+							<!--div class="content">
+								<form method="POST" action="http://cgi.ivesimports.es/FormMail.pl" onsubmit="return checkRequired(this)">
+
+									<input type="hidden" name="recipient" value="info@ivesimports.es">
+									<input type="hidden" name="subject" value="tengame informado">
+									<input type="hidden" name="email" value="correo electronico,">
+
+									<div class="row half no-collapse-1">
+										<div class="6u">
+											<input type="text" name="name" placeholder="Name" />
+										</div>
+										<div class="6u">
+											<input type="text" name="email" placeholder="Email" required=""/>
+										</div>
+									</div>
+									<div class="row half">
+										<div class="12u">
+											<input type="text" name="subject" placeholder="Subject" />
+										</div>
+									</div>
+									<div class="row half">
+										<div class="12u">
+											<textarea name="message" placeholder="Message" rows="7"></textarea>
+										</div>
+									</div>
+									<div class="row">
+										<div class="12u">
+											<ul class="buttons">
+												<li class="submit"><input class="button" type="submit" name="Enviado" value="Enviar Mensaje"></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+					</div-->
+
+							<!--script type="text/javascript">
+					var placeholder = $("#test").val();
+
+					$("#test").keydown(function() {
+					    if (this.value == placeholder) {
+					        this.value = '';
+					    }
+					}).blur(function() {
+					    if (this.value == '') {
+					        this.value = placeholder;
+					    }
+					});
+					</script>
+
+
+					</section>
+
+			</article>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<!--ul class="icons">
+				<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.linkedin.com/company-beta/11016811/" class="icon circle fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+				<!--<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+			<!--/ul-->
+
+			<span class="copyright">&copy; TATA Llar de criança. All rights reserved.
+				<div>Base design inspired by <a href="http://html5up.net">HTML5 UP</a> and modified by Axel Conill Roche.</div>
+				<div><font size="1">Background images are released under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.es">Creative Commons CC0</a></font></div>
+			<!--div><font size="1">Language icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
+				<a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by
+				<a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></font></div-->
+		</span>
+		</footer>
+
+	</body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty 1.0 by HTML5 UP
+	html5up.net | @n33
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="ca">
+	<head>
+		<title>TATA Llar de criança - Home</title>
+		<link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="favicon/favicon.svg">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#2A5791"/>
+		<meta name="msapplication-navbutton-color" content="#2A5791">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#2A5791">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+
+
+
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+
+	</head>
+
+	<!-- loader-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+	<script src="js/loader.js"></script>
+	<div class="se-pre-con"></div>
+	<!-- loader-->
+
+	<body class="index loading">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1 id="logo"><a href="index.html">TATA <span>Llar de criança</span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="current scrolly"><a href="#">Benvinguda</a></li>
+						<li class="submenu">
+							<a href="">Menú</a>
+							<ul>
+								<li><a href="index-ca.html">Inici</a></li-->
+								<li><a href="services-ca.html">Projecte</a></li>
+								<li><a href="about-ca.html">Qui soc</a></li>
+								<li><a href="contact-ca.html">La nostra llar</a></li>
+								<li>&nbsp;</li>
+								<li><a class="icon fa-globe" href="lang.html"> Language</a></li>
+							</ul>
+			            </li>
+						<!--<li><a href="#" class="button special">Sign up</a></li>-->
+						<a style="text-decoration:none">
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</a>
+						<!--a href="index-en.html"><img src="images/005-cat.svg" class="icon circle lang" alt="CAT"></a>
+						<a href="index-zh.html"><img src="images/004-spain.svg" class="icon circle lang" alt="ESP"></a>
+						<a href="index-es.html"><img src="images/003-UK.svg" class="icon circle lang" alt="ENG"></a>-->
+						</ul>
+        </nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<!--
+					".inner" is set up as an inline-block so it automatically expands
+					in both directions to fit whatever's inside it. This means it won't
+					automatically wrap lines, so be sure to use line breaks where
+					appropriate (<br />).
+				-->
+				<div class="container">
+					<div class="content">
+						<div class="carousel-content">
+							<div class="inner">						
+							
+							<div class="innermobile">
+							<header>
+							<h2>Tata</h2>
+							</header>
+							<p>&nbsp;&nbsp;</p>	
+							<img src="images/tata_logo_casa_trans.png" alt="TATA" width="75%">
+							<p><strong>Llar</strong> de criança<p>
+							<p>&nbsp;&nbsp;</p>
+							<div>Per a que els vostres menuts<br> es sentin com a casa</div>
+							<p>&nbsp;&nbsp;</p>
+							</div>
+							<div class="innerdesktop">
+							<header>
+							<table>
+							<tr>
+							<td><h2>Tata</h2><img src="images/tata_logo_casa_trans.png" alt="TATA" align="right" width="300"></td>
+							</tr>
+							<tr>
+							<td height="50px"><p>&nbsp;&nbsp;<strong>Llar</strong> de criança<p></td>
+							</tr>
+							<tr>
+							<td><div>Per a que els vostres menuts<br> es sentin com a casa</div></td>
+							</tr>
+							</table>
+							</header>
+							</div>
+							
+							<footer>
+							<ul class="buttons vertical">
+								<li><a href="#main" class="button fit scrolly">Descubreix més</a></li>
+							</ul>
+							</footer>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slideshow">
+				<!-- carousel control buttons -->
+				<button class="slide-btn slide-btn-1"></button>
+				<button class="slide-btn slide-btn-2"></button>
+				<button class="slide-btn slide-btn-3"></button>
+				<button class="slide-btn slide-btn-4"></button>
+				<!-- carousel wrapper which contains all images -->
+				<div class="slideshow-wrapper">
+					<div class="slide">
+						<img class="slide-img" src="images/maria4.jpg">
+					</div>
+					<div class="slide">
+						<img class="slide-img" src="images/banner.jpg">
+					</div>
+					<div class="slide">
+						<img class="slide-img" src="images/banner_2.jpg">
+					</div>
+					<div class="slide">
+						<img class="slide-img" src="images/banner_grass.jpg">
+					</div>
+				</div>
+			</div>
+			</section>
+
+		<!-- Main -->
+			<article id="main">
+
+				<header class="special container">
+					<!--span class="icon fa-home"></span-->
+					<h2>Us presento <strong>TATA - Llar de criança</strong><br />
+					 Un projecte de Mare de Dia.</h2>
+					<!--p>Sóc la María i juntament amb la meva familia, obrim casa nostra amb tota la il·lusió i tot l’amor, per acollir a les famílies i als seus petits i petites.</p-->
+					<p>Tata neix a partir de la vivència personal més important de la meva vida: l’arribada del meu fill. El seu naixement va suposar un terratrèmol què em va sacsejar fins als ciments, per treure el millor de mi mateixa.</p>
+
+				</header>
+
+				<section class="wrapper style3 container">
+					<div>
+						<header>
+							<h3>Professió <strong>mare de dia</strong></h3>
+						</header>
+					
+					<p>Les mares de dia són educadores professionals que ofereixen en la seva pròpia llar (adequadament adaptada i equipada) un servei d'atenció i cura als menors de 4 mesos fins als 3 anys d’edat, en grups molt reduïts (3-4 nens) i en un ambient familiar.</p>
+					<p>Les Mares de Dia, amb amor, paciència, temps i dedicació, acompanyen als nens en el desafiament que és per a ells el dia a dia, i ofereixen a les seves famílies una resposta de qualitat per a afrontar les dificultats quotidianes sorgides per la incorporació plena de la dona al món laboral.</p>
+					<p>El projecte de Mares de dia és un recurs de conciliació de la vida laboral i familiar,  una alternativa social a les llars d’infants tradicionals o escoles bressols, més adaptada a les veritables necessitats educatives i emocionals dels nens en aquestes edats.</p>
+					<p>L’ambient en la llar d’una Mare de Dia, proveeix al nen de les eines necessàries per a realitzar-se en el futur com a ser creatiu i compromès davant la societat. A fi què després el petit es situï davant els altres amb confiança, creativitat i entrega, és necessari que hagi estat tractat en la primera fase de la vida de forma absolutament individualitzada, amb un contacte íntim i de protecció, on la seva experiència s'impregni de la qualitat de l'amor incondicional.</p>
+
+					<h3>Serveis de la llar <strong>a les famílies</strong></h3>
+					<p>Entre els serveis que oferim a la Llar, està el de oferir suport, assessorament i recolzament a les famílies en la criança del nen en tot moment, així com la d’oferir un espai de trobada amb altres famílies per poder fer xerrades, com per exemple, sobre lactància, alimentació, son, etc, acompanyades d’infusions, cafè i pastetes, cortesia de la nostra llar.</p>
+					<p>Una part essencial i fonamental en el projecte, és la participació de les famílies en l'educació i la integració de les mateixes en el projecte educatiu de la llar, ja què és un factor determinant per al bon desenvolupament del menor.</p>
+					<p>Els infants són uns grans observadors, per la qual cosa si veuen als seus integrar-se i participar en la seva educació, els transmetran seguretat i confiança, facilitant així la incorporació a la nostra llar.</p>
+					<p>La cooperació entre totes dues parts està plena d'avantatges, facilitarà molt el treball de la Mare de Dia així com el de les famílies, que s'aniran tranquil·les a complir amb els seus deures sabent que el seu fill/a es queda tranquil i feliç.</p>
+					<p>És important que les famílies dediquin un temps al comiat i a la benvinguda, en aquest període de temps, mentre els nens continuen jugant i aprenent, s'estableix un vincle que afavoreix la comunicació entre tots dos.</p>
+
+						
+						<li><strong>Entrevista inicial:</strong>
+							<p>Convidarem a les famílies a conèixer el projecte, realitzant una sèrie de preguntes en relació al nen/a, per tal de que disposem d’informació inicial suficient sobre els seus hàbits, preferències, moment maduratiu, etc.</p>
+						</li>
+						<li><strong>Reunions amb les famílies:</strong></li>
+							<p>La Mare de Dia estarà oberta a rebre a les famílies quan així ho desitgin. De la mateixa manera, quan observem algun tipus de canvi significatiu, es convocarà una reunió amb elles. </p>
+							<p>L’intercanvi d’informació serà diari a l'arribada i a la recollida, amb el que, a priori, la informació que es transmeti serà suficient.</p>
+						<li><strong>Reunions entre famílies:</strong></li>
+							<p>A l'inici es convocarà a totes les famílies perquè es coneguin entre si i es pugui parlar de manera conjunta del projecte i de dubtes que sorgeixin sobre aquest tema.</p>
+
+						
+							<p>Eventualment si ho veiem necessari, és convocarà una reunió amb totes les famílies per a avaluar el projecte, buscar millores i aportar suggeriments entre tots/es. D'aquesta manera, estarem implicant a les famílies en el procés educatiu dels seus fills/es a la nostra llar. Per altra banda, ajudem al fet que les famílies empatitzin entre si i es sentin compreses i orientades en poder compartir i rebre la informació que necessiten.</p>
+				</section>
+				<section class="wrapper style3 container">
+					<h3>Horari</h3>
+					<p>L’horari serà de dilluns a divendres amb flexibilitat en l’entrada, de 8:00h a 9:00h, i a la sortida, de 15:00h a 16:00h. El servei s’executarà en funció de les hores pactades en el contracte inicial, amb excepció dels festius i dies de lliure disposició, així com les vacances escolars de Nadal, Setmana Santa i el mes d’Agost que s’indiquen en el calendari anual de prestació del servei.</p>
+				</div>
+				</section>	
+
+
+				<!-- One -->
+					<section class="wrapper style2 container special-alt">
+						<!--div class="row half">
+							<div class="8u"-->
+							<div>
+								<header>
+									<h2>INTENCIONS <strong>EDUCATIVES</strong></h2>
+								</header>
+								<p>Tata vol aconseguir crear un espai segur, on cada nen es senti lliure per observar, escoltar, tocar, i olorar el món a la seva manera i al seu ritme segons el seu procés de maduresa i construcció interna. La meva responsabilitat com a Mare de Dia, és la de posar al seu abast uns materials amables què el convidin a experimentar la seva independència i autosuficiència en el seu procés d’aprenentatge, dins d’un entorn pensat i preparat per a aquesta finalitat. Hem de procurar conjuntament i amb consonància amb les famílies, saber identificar el seu moment evolutiu  a la vegada que el deixem que sigui la seva pròpia voluntat la que impulsi al seu aprenentatge, guiat sempre que ho necessiti, de la nostra mà.</p>
+								<h2><strong>Principis</strong> metodològics i pedagògics</h2>
+								<p>Aquest projecte es basa principalment en tres corrents pedagògiques: la de María Montessori, Rudolf Steiner i la seva pedagogia Waldorf, i la de Emmi Pikler, ja que considero que els seus principis pedagògics són com una mena de sinergia la qual encaixa amb els fonaments que considero més importants, com la defensa del desenvolupament integral del nen mitjançant l’exploració, el desenvolupament de la creativitat, l’amor i la llibertat.</p>
+								
+								<footer>
+									<ul class="buttons">
+										<li><a href="services-ca.html#metodes" class="button">Vols saber-ne més?</a></li>
+								</footer>
+
+							</div>
+							<!--div class="4u skel-cell-important">
+
+								<ul class="icon feature" style="line-height:1200%">
+								<li><span class="icon feature fa-heart"></span></li>
+								<li><span class="icon feature fa-shield"></span></li>
+								<li><span class="icon feature fa-child"></span></li>
+								<!--li><img src="images/montessori_logo.png" width="200"</li>
+								<li><img src="images/waldorf_logo_clar.png" width="200"</li>
+								<li><img src="images/pikler_logo.png" width="200"</li>
+								</ul>
+
+							</div-->
+					</section>
+
+				<!-- Two -->
+					<section class="wrapper style1 container special">
+						<div class="row">
+							<div class="4u">
+
+								<section>
+									<span class="icon feature"><img src="images/montessori_logo.png" height="262"></span>
+									<header>
+										<h3>MARIA MONTESSORI</h3>
+									</header>
+									<p>Aquesta educadora i metgessa defensa el foment de la motivació del nen per aprendre coneixements del seu interès.</p>
+								</section>
+
+							</div>
+							<div class="4u">
+
+								<section>
+									<span class="icon feature"><img src="images/waldorf_logo_clar.png" height="262"></span>
+									<header>
+										<h3>WALDORF</h3>
+									</header>
+									<p>Metodologia basada en etapes de desenvolupament basat en l’experiència i joc creatiu, foment d’habilitats socials i de creació artística, i millora de l'empatia i comprensió intel·lectual</p>
+								</section>
+
+							</div>
+							<div class="4u">
+
+								<section>
+									<span class="icon feature"><img src="images/pikler_logo.png" height="262"></span>
+									<header>
+										<h3>EMMI PICKLER</h3>
+									</header>
+									<p>Profunds estudis sobre el comportament i desenvolupament dels nadons, defensa la no intervenció de l’adult en el seu desenvolupament psicomotriu.</p>
+								</section>
+
+							</div>
+						</div>
+						<div align="center"><a href="services-ca.html#metodes" class="button">Coneix-les</a></div>
+					</section>
+				
+
+				<!-- Three -->
+					<section class="wrapper style3 container special">
+
+						<header class="major">
+							<h2>Tenim les <strong>portes obertes</strong></h2>
+						</header>
+
+						<div class="row">
+							<div class="6u">
+
+								<section>
+									<a href="#" class="image feature"><img src="images/proveedores.jpg" alt="" /></a>
+									<header>
+										<h3>Característiques</h3>
+									</header>
+									<p>La nostre llar s’ha condicionat adequant uns espais preparats amb material específic per a cada etapa evolutiva del nen o nena. </p>
+								</section>
+
+							</div>
+							<div class="6u">
+
+								<section>
+									<a href="#" class="image feature"><img src="images/negociacion.jpg" alt="" /></a>
+									<header>
+										<h3>ESPAIS</h3>
+									</header>
+									<p>Els diferents espais han de respondre a les necessitats infantils i a les característiques de cada nen/a, així com del grup. </p>
+								</section>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="6u">
+
+								<section>
+									<a href="#" class="image feature"><img src="images/muestras.jpg" alt="" /></a>
+									<header>
+										<h3>MAterials</h3>
+									</header>
+									<p>Els materials han de cuidar l’ús del color, la llum, el so i l’olor en el disseny dels espais, així com la  riquesa sensorial dels materials</p>
+								</section>
+
+							</div>
+							<div class="6u">
+
+								<section>
+									<a href="#" class="image feature"><img src="images/embarque.jpg" alt="" /></a>
+									<header>
+										<h3>Estètica</h3>
+									</header>
+									<p>Procurem que sigui un ambient similar al d’una llar, acollidor i harmònic (materials naturals, colors suaus, etc.) i evitem que els espais siguin impersonals, freds, uniformes i sense personalitat pròpia.</p>
+								</section>
+
+							</div>
+						</div>
+
+						<footer class="major">
+							<ul class="buttons">
+								<li><a href="about-ca.html" class="button special3">Coneix més</a></li>
+							</ul>
+						</footer>
+
+					</section>
+
+			</article>
+
+		<!-- CTA -->
+			<section id="cta">
+
+				<header>
+					<h2>Ens vols conèixer <strong>més</strong>?
+					</h2>
+					<p style="text-align:center">Contacta'ns i descobreix el nostre dia a dia.</p>
+				</header>
+				<footer>
+					<ul class="buttons">
+						<li><a href="contact-ca.html" class="button special">Contacta'ns</a></li>
+						<li><a href="blog-ca.html" class="button special2">El nostre blog</a></li>
+					</ul>
+				</footer>
+
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+					<!--ul class="icons">
+						<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon circle fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<!--li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li-->
+						<!--<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+					<!--/ul-->
+
+					<span class="copyright">&copy; Tata, Llar de Criança. All rights reserved.
+						<div>Base design inspired by <a href="http://html5up.net">HTML5 UP</a> and modified by Axel Conill Roche.</div>
+						<div><font size="1">Background images are released under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.es">Creative Commons CC0</a></font></div>
+	        <div><font size="1">Language icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
+	          <!--a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by
+	          <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></font></div>
+			<div><a href="http://www.onlinewebfonts.com">oNline Web Fonts</a></div-->
+		
+				</span>
+				</footer>
+
+	</body>
+</html>

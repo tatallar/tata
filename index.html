@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+
+<head>
+  <title>IVES - non-javascript advice</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <!-- http://www.favicon-generator.org/ -->
+  <script type="text/javascript">
+
+/*
+Browser Language Redirect script- By JavaScript Kit
+For this and over 400+ free scripts, visit http://www.javascriptkit.com
+This notice must stay intact
+*/
+
+//Enter ISO 639-2 letter Language codes to detect (see: http://www.w3.org/WAI/ER/IG/ert/iso639.htm):
+var langcodes=new Array("ca", "es", "en", "default")
+
+//Enter corresponding redirect URLs (last one is for default URL):
+var langredirects=new Array("index-ca.html", "index-es.html", "index-en.html", "lang.html")
+
+var languageinfo=navigator.language? navigator.language : navigator.userLanguage
+var gotodefault=1
+
+function redirectpage(dest){
+if (window.location.replace)
+window.location.replace(dest)
+else
+window.location=dest
+}
+
+for (i=0;i<langcodes.length-1;i++){
+if (languageinfo.substr(0,2)==langcodes[i]){
+redirectpage(langredirects[i])
+gotodefault=0
+break
+}
+}
+
+if (gotodefault)
+redirectpage(langredirects[langcodes.length-1])
+
+  </script>
+
+  <noscript>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </noscript>
+
+</head>
+
+<body style="background-color: #1c2021">
+
+  <!-- Banner -->
+    <section id="banner">
+      <!--
+        ".inner" is set up as an inline-block so it automatically expands
+        in both directions to fit whatever's inside it. This means it won't
+        automatically wrap lines, so be sure to use line breaks where
+        appropriate (<br />).
+      -->
+      <div class="inner">
+
+        <header>
+        <!--<h2></h2>-->
+        </header>
+        <table class="special containers" style="max-width:100px">
+          <tr><td>
+          <div>
+            <img src="images/logo.png" alt="TATA" width="280%">
+          </div>
+        </tr></td>
+      </table>
+        <p><strong>TATA site<br />
+         needs to be activated
+         <br />
+        javascript, <br />for the moment</p>
+        <footer>
+
+        </footer>
+
+      </div>
+
+    </section>
+
+</body>

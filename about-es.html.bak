@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="es">
+	<head>
+		<title>Acerca de IVES</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="no-sidebar loading">
+
+		<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="index.html">ACERCA DE <span>IVES</span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="index.html">Bienvenida</a></li>
+						<li class="submenu">
+							<a href="">Menú</a>
+							<ul>
+								<li><a href="blog-es.html">Blog</a></li>
+								<li><a href="services-es.html">Servicios</a></li>
+								<li><a href="about-es.html">Acerca de IVES</a></li>
+								<li><a href="contact-es.html">Contacto</a></li>
+								<!--	<li class="submenu">
+										<a href="">Submenu</a>
+										<ul>
+											<li><a href="#">Dolore Sed</a></li>
+											<li><a href="#">Consequat</a></li>
+											<li><a href="#">Lorem Magna</a></li>
+											<li><a href="#">Sed Magna</a></li>
+											<li><a href="#">Ipsum Nisl</a></li>
+										</ul>
+									</li> -->
+							</ul>
+						</li>
+						<li><a href="#" class="button special">Sign Up</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<article id="main">
+
+				<header class="special container">
+					<span class="icon fa-users"></span>
+					<h2>Conozca a fondo <strong>ives imports</strong></h2>
+					<p>presentacion y competencias</p>
+				</header>
+
+				<!-- One -->
+					<section class="wrapper style4 container">
+
+						<!-- Content -->
+							<div class="content">
+								<section>
+									<a href="#" class="image feature"><img src="images/acerca.jpg" alt="" /></a>
+									<header>
+										<h3>Acerca de Ives Imports</h3>
+									</header>
+									<p>Ives Imports nace en 2016 como una posibilidad para PYMES, para ofrecerles el tener acceso a mercados internacionales.</p>
+									<p>Somos un Departamento de Compras Externo, que llevamos a gestión integral de las compras internacionales de su empresa.</p>
+									<p>Nuestra idea surge de las dificultades de algunas PYMES para adquirir trabajadores especializados en Comercio Internacional.</p>
+									<p>Creemos que es una gran ventaja nuestro modelo de trabajo, en cuanto a la consecución de objetivos, minimizando los costes que conlleva tener estructura interna.</p>
+									<p>Nuestra red de profesionales con más de 15 años de experiencia en diversos sectores trabaja de forma individualizada para su empresa, como una extensión de la misma, ofreciendo seguimiento continuo y personalizado para cubrir sus necesidades. Trabajamos como parte de su empresa, llevando un seguimiento diario, y trabajando de forma parcial en sus propias instalaciones, a acordar según volumen y necesidades.</p>
+									<p>Llevamos a cabo la prospección de mercado en cuanto a fabricantes y proveedores a nivel mundial. Asistencia a ferias internacionales de su sector para buscar los mejores proveedores y buscar la optimización de precios y estar al día con las nuevas tendencias de su sector.</p>
+									<br>
+									<p>Nuestras competencias son:</p>
+									<ul class="ul default">
+										<li>Dirigir y planificación las compras de su empresa en el ámbito internacional</li><br>
+										<li>Implantación de la política de compras siguiendo las directrices marcadas por la empresa.</li><br>
+										<li>Búsqueda y selección de productos y proveedores de forma activa en el ámbito internacional. Prospección de mercado continuo en función de las necesidades marcadas con la empresa.</li><br>
+										<li>Asistencia a ferias y programación de viajes comerciales para visitar fabricantes y hacer seguimiento de cerca de producción, e inspecciones de calidad.</li><br>
+										<li>Gestión de muestras y desarrollo de las mismas, siempre acordando con la empresa la optimización de las mismas en cuanto a precios calidad y volumen.</li><br>
+										<li>Logística de importación integral, incluyendo todas las fases desde el embarque de la mercancía, despachos de aduanas y entrega final de la mercancía.</li><br>
+										<li>Control de stock y planificación de compras en función de necesidades y siguiendo con el presupuesto de compras elaborado junto a la dirección de la empresa.</li><br>
+										<li>Soporte en cuanto a la gestión de stock, entradas y salidas de mercancía y funcionamiento óptimo de ERP.</li><br>
+										<li>Trabajo conjunto con otros departamentos como marketing, finanzas o comercial para la consecución de objetivos.</li><br>
+									</ul>
+								</section>
+							</div>
+
+					</section>
+
+				<!-- Two -->
+					<section class="wrapper style1 container special">
+						<div class="row">
+							<div class="4u">
+
+								<section>
+									<header>
+										<h3>This is Something</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+									<footer>
+										<ul class="buttons">
+											<li><a href="#" class="button small">Learn More</a></li>
+										</ul>
+									</footer>
+								</section>
+
+							</div>
+							<div class="4u">
+
+								<section>
+									<header>
+										<h3>Also Something</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+									<footer>
+										<ul class="buttons">
+											<li><a href="#" class="button small">Learn More</a></li>
+										</ul>
+									</footer>
+								</section>
+
+							</div>
+							<div class="4u">
+
+								<section>
+									<header>
+										<h3>Probably Something</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+									<footer>
+										<ul class="buttons">
+											<li><a href="#" class="button small">Learn More</a></li>
+										</ul>
+									</footer>
+								</section>
+
+							</div>
+						</div>
+					</section>
+
+			</article>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<ul class="icons">
+					<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+					<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+					<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+				</ul>
+
+				<span class="copyright">&copy; Untitled. All rights reserved. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+
+			</footer>
+
+	</body>
+</html>
