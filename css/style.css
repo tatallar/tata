@@ -350,12 +350,24 @@
 		.image.feature {
 			display: block;
 			margin: 0 0 2em 0;
+			-webkit-transition: -webkit-transform 0.4s;
+			transition: transform 0.4s;
 		}
 
 			.image.feature img {
 				display: block;
 				width: 100%;
+				border: 1px solid #ddd;
 			}
+
+			/*.image.feature:hover {
+				-webkit-transform: scale(1.8) rotate(0.01deg);
+				transform: scale(1.8) rotate(0.01deg);
+				z-index:1000;
+				border: 10px solid #ddd;
+			}*/
+
+
 
 /* Icon */
 
